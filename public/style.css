@@ -1,0 +1,121 @@
+.main > main {
+    display: flex;
+    padding: 2%;
+    gap: 2%;
+}
+button {
+    display: block;
+    box-sizing: content-box;
+}
+.edit, .display {
+    width: 45%;
+    padding: 2%;
+    box-shadow: 0px 0px 15px black;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.display {
+    padding: 0;
+}
+.display h2{
+    font-size: 22px;
+    color:rgb(20, 62, 114);
+    margin: 0;
+}
+hr {
+    margin: 0;
+    margin-bottom: 10px;;
+}
+
+.edit input, button {
+    width: 100%;
+}
+
+.personalinfo *, .experienceinfo *, .educationinfo * {
+    margin: 5px 0;
+}
+
+.personalinfo form > *, .experienceinfo form > *, .educationinfo form > *, button {
+    height: 25px;
+    font-size: 16px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+.display {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.display main {
+    display: flex;
+    flex: 1;
+
+}
+
+.display .left {
+    flex: 2;
+    padding: 15px;
+}
+
+.display .right {
+    flex: 1;
+    background-color: rgb(221,221,221);
+    padding: 15px;
+    
+}
+
+.right .photo {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    
+}
+.display header {
+    background-color: rgb(20, 62, 114);
+    height: 100px;
+    overflow: hidden;
+    color: white;
+    padding: 2%;
+}
+
+.display h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.display .name {
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.display .title {
+    font-size: 24px;
+}
+
+
+button {
+    background-color: darkslategrey;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+}
+
+.experience-child *, .education-child {
+    margin: 0;
+    padding: 0;
+}
+.experience-child, .education-child {
+    display: flex;
+    gap: 100px;
+
+}
+
+.experience-child .span {
+    
+}
