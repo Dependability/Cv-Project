@@ -49,7 +49,7 @@ class Display extends Component {
                 </div>
                 </div>
                 <div className='right'>
-                    <img class='photo' src={this.props.generalState['img']} alt='pfp'></img>
+                    <img class='photo' src={ this.props.generalState['imgsrc'] ? this.props.generalState['imgsrc'] : 'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png'} alt='Invalid Link'></img>
                     <div class='details'>
                         <div className='header'>
                             <h2>Personal Details</h2>

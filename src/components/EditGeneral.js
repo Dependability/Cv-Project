@@ -20,6 +20,7 @@ class General extends Component {
                 <input placeholder='First Name' name='first-name' onChange={this.changeValues}/>
                 <input placeholder='Last Name' name='last-name' onChange={this.changeValues}/>
                 <input placeholder='Title' name='title'onChange={this.changeValues}/>
+                <input placeholder='Photo' name='imgsrc' onChange={this.changeValues} />
                 <input placeholder='Address' name='address'onChange={this.changeValues}/>
                 <input placeholder='Phone Number' name='phone-number'onChange={this.changeValues}/>
                 <input placeholder='Email' name='email-address'onChange={this.changeValues}/>
